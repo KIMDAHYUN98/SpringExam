@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+ <typeAliases>
+ 	<!-- 해당 패키지는 자동으로 alias 를 생성해준다. -->
+ 	<package name="com.company"/>
+ </typeAliases>
+ </configuration>
