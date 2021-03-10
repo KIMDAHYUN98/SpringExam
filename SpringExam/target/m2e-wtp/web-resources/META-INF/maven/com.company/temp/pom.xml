@@ -16,8 +16,8 @@
 		<org.log4j-version>2.9.0</org.log4j-version>
 	</properties>
 	<dependencies>
-	<!-- 의존성 관리 -->
-		
+		<!-- 의존성 관리 -->
+
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -31,8 +31,8 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
-		
+
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
@@ -57,7 +57,7 @@
 			<version>${org.springframework-version}</version>
 		</dependency>
 
-		<!-- AspectJ : AOP-->
+		<!-- AspectJ : AOP -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
@@ -127,7 +127,7 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -135,36 +135,36 @@
 			<version>1.18.16</version>
 			<scope>provided</scope>
 		</dependency>
-		
+
 		<!-- oracle_jdbc -->
 		<dependency>
 			<groupId>com.oracle.ojdbc</groupId>
 			<artifactId>ojdbc8</artifactId>
 			<version>19.3.0.0</version>
 		</dependency>
-		
+
 		<!-- @requestBody, @responseBody -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>2.12.1</version>
 		</dependency>
-		
+
 		<!-- Mybatis -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
 			<version>3.5.4</version>
 		</dependency>
-		
+
 		<!-- Mybatis-spring -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
 			<version>2.0.4</version>
 		</dependency>
-		
-		<!-- @vaild  -->
+
+		<!-- @vaild -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
@@ -180,6 +180,14 @@
 			<artifactId>validation-api</artifactId>
 			<version>2.0.1.Final</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.6</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
